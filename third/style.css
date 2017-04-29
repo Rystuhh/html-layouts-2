@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+
+}
+.top {
+  background-color: rgb(46, 46, 46);
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+
+}
+button {
+  background-color: inherit;
+  border-style: none;
+  color: white;
+  font-size: 30px;
+  letter-spacing: 3px;
+  padding: 30px;
+}
+button:hover {
+  background-color: grey;
+}
+.wrapper {
+  padding: 30px;
+  display: flex;
+  height: auto;
+
+}
+.column-one {
+  height: inherit;
+  width: 50%;
+  /*background-color: pink;*/
+}
+.column-two {
+  display: flex;
+  flex-direction: column;
+  height: inherit;
+  width: 50%;
+  /*background-color: purple;*/
+
+  }
+.image-box {
+  height: 350px;
+  width: 85%;
+  background-color: grey;
+  align-self: center;
+  background-image: url('lilbb.jpg');
+  background-size: cover;
+}
+p {
+  font-size: 18px;
+  font-family: Rubik;
+}
+h1 {
+  font-family: Rubik;
+  font-size: 50px;
+}
+.bottom {
+  background-color: rgb(46, 46, 46);
+  height: 100px;
+  width: 100%;
+}
